@@ -1,47 +1,15 @@
 import Image from 'next/image'
-
+import searchBar from "../Components/ShowCards"
+import PresentationCard from '@/Components/Card'
+import ShowCards from '../Components/ShowCards'
 export default function Home() {
   return (
-    <div>
-      <div className="h-72 carousel rounded-box carousel-vertical">
-      <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div> 
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
-        <div className="carousel-item">
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-          <div className="divider divider-horizontal">OR</div>
-          <img className="h-80 w-1/2" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png" alt="Burger" />
-        </div>
+    <div className='grid h-screen place-items-center items-center'>
+      <div className='justify-items-center'>
+        <h1 className='text-5xl font-semibold'>Bienvenidos al programa de mentoring!</h1>
+        <h2 className='text-2xl font-medium w-11/12 ml-12 mt-3'>Agradecemos su presencia y los invitamos a conocer a sus mentees </h2>
       </div>
-
-      {/* <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/800x600_Wallpaper_Blue_Sky.png"></img> */}
+      <ShowCards />
     </div>
   )
 }

@@ -1,11 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import HeaderMentoring from '../Components/Header.jsx'
 const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className=''>
       <body className={inter.className}>
-        <h1>Hola Mundo</h1>
+        <HeaderMentoring />
         {children}
       </body>
     </html>
