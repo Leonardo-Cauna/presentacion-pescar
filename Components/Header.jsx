@@ -1,6 +1,6 @@
 export default function HeaderMentoring(){
 return(
-<div className="h-16 w-full bg-white border-b-2 border-neutral-500 flex justify-between sticky top-0">
+<div className="h-16 w-full bg-white border-b-2 border-neutral-500 flex justify-between fixed top-0 z-10">
     <div className="flex justify-start">
         <img src="../santander.png" alt="" className="object-scale-down w-16 h-16 ml-3"/>
         <img src="../compromiso.svg" alt="" className="object-cover w-32 h-16"/>

@@ -2,57 +2,54 @@
 // import React, {useState} from 'react'
 import Nombres from "../app/Nombres.json"
 import PresentationCard from './Card'
+import SCstyle from './scStyle.css'
+import React, { useEffect, useRef, useState } from "react";
+  
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
 
-function CardPar(personas){
-  if(personas.id % 2 === 0)
-  {
-    return(
-      <PresentationCard nombre={personas.nombre_completo} mentor={personas.nombre_mentor} imagen={personas.imagen} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
-    )
-  }
-}
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
 
-function CardInpar(personas){
-  if(personas.id % 2 !== 0)
-  {
-    return(
-      <>
-        <PresentationCard nombre={personas.nombre_completo} mentor={personas.nombre_mentor} imagen={personas.imagen} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
-      {/* <div className="divider divider-horizontal w-9 h-12"></div> */}
-      </>
-      
-    )
-  }
-}
+      scrollObserver.observe(ref.current);
 
-function item(){
-  if(num%2 === 0)
-  {
-    return(
-      <div className="carousel-item">
-        
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  }, []);
+
+  const classes = `transition-opacity duration-1000 
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
       </div>
-    )
-  }
-  else if(num%2 !== 0)
-  {
-    return(
-      <div className="carousel-item">
-        
-      </div>
-    )
-  }
-}
+  );
+};
+
+
 
 export default function ShowCards (){
 return(
-  <div className="h-72 w-1/3 carousel carousel-vertical">
-    {Nombres.map (personas =>{
+  <div className="filas">
+    {Nombres.map ((personas, id) => {
       return(
-        <div className="carousel-item">
-          {CardInpar(personas)}
-          {CardPar(personas)}
-        </div>
-          )})}
+        <RevealOnScroll>
+          <PresentationCard key={id} nombre={personas.nombre} mentor={personas.nombre_mentor} imagen={personas.imagen} link1={personas.link1} link2={personas.link2} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
+        </RevealOnScroll>
+        )
+    })}
   </div>
 )}
+        // <div className="carousel-item">
+        // </div>
