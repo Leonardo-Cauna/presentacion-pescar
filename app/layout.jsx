@@ -8,9 +8,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <HeaderMentoring />
         {children}
-        <script src="https://kit.fontawesome.com/6337bd4f6e.js" crossorigin="anonymous"></script>
       </body>
-
     </html>
   )
 }

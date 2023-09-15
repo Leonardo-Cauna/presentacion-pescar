@@ -46,10 +46,10 @@ return(
   <div className="filas">
     {Nombres.filter((personas)=>{
       return buscador.toLowerCase() === '' ? personas : personas.nombre.toLowerCase().includes(buscador) || personas.nombre_mentor.toLowerCase().includes(buscador)
-    }).map ((personas, id) => {
+    }).map ((personas) => {
       return(
         <RevealOnScroll>
-          <PresentationCard key={id} nombre={personas.nombre} mentor={personas.nombre_mentor} imagen={personas.imagen} link1={personas.link1} link2={personas.link2} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
+          <PresentationCard nombre={personas.nombre} mentor={personas.nombre_mentor} imagen={personas.imagen} link1={personas.link1} link2={personas.link2} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
         </RevealOnScroll>
         )
     })}
