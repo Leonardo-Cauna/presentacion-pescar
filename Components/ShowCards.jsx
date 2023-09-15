@@ -4,6 +4,7 @@ import Nombres from "../app/Nombres.json"
 import PresentationCard from './Card'
 import SCstyle from './scStyle.css'
 import React, { useEffect, useRef, useState } from "react";
+
   
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,10 +40,13 @@ const RevealOnScroll = ({ children }) => {
 
 
 
-export default function ShowCards (){
+export default function ShowCards ({buscador}){
+
 return(
   <div className="filas">
-    {Nombres.map ((personas, id) => {
+    {Nombres.filter((personas)=>{
+      return buscador.toLowerCase() === '' ? personas : personas.nombre.toLowerCase().includes(buscador) || personas.nombre_mentor.toLowerCase().includes(buscador)
+    }).map ((personas, id) => {
       return(
         <RevealOnScroll>
           <PresentationCard key={id} nombre={personas.nombre} mentor={personas.nombre_mentor} imagen={personas.imagen} link1={personas.link1} link2={personas.link2} imagen_mentor={personas.imagen_mentor} id={personas.id}/>

@@ -5,3 +5,14 @@
     grid-row-gap: 30px;
     grid-template-rows: auto;
 }
+
+.busc {
+    display: flex;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.busc a {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+}
