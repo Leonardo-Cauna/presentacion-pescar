@@ -49,7 +49,7 @@ return(
     }).map ((personas) => {
       return(
         <RevealOnScroll>
-          <PresentationCard nombre={personas.nombre} mentor={personas.nombre_mentor} imagen={personas.imagen} link1={personas.link1} link2={personas.link2} imagen_mentor={personas.imagen_mentor} id={personas.id}/>
+          <PresentationCard nombre={personas.Nombre_Alumno} mentor={personas.Nombre_Mentor} imagen={personas.Imagen_Alumno} link1={personas.Linkedin_Alumno} link2={personas.Linkedin_mentor} imagen_mentor={personas.Imagen_Mentor} id={personas.ID}/>
         </RevealOnScroll>
         )
     })}
