@@ -43,7 +43,7 @@ const RevealOnScroll = ({ children }) => {
 export default function ShowCards ({buscador}){
 
 return(
-  <div className="filas">
+  <div className="w-full max-w-[95%] mx-auto grid gap-5 grid-cols-1 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 pb-10">
     {Nombres.filter((personas)=>{
       return buscador.toLowerCase() === '' ? personas : personas.Nombre_Alumno.toLowerCase().includes(buscador) || personas.Nombre_Mentor.toLowerCase().includes(buscador)
     }).map ((personas) => {
