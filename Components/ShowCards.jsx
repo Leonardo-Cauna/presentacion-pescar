@@ -45,7 +45,7 @@ export default function ShowCards ({buscador}){
 return(
   <div className="filas">
     {Nombres.filter((personas)=>{
-      return buscador.toLowerCase() === '' ? personas : personas.nombre.toLowerCase().includes(buscador) || personas.nombre_mentor.toLowerCase().includes(buscador)
+      return buscador.toLowerCase() === '' ? personas : personas.Nombre_Alumno.toLowerCase().includes(buscador) || personas.Nombre_Mentor.toLowerCase().includes(buscador)
     }).map ((personas) => {
       return(
         <RevealOnScroll>
