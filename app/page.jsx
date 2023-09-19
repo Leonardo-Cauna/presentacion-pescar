@@ -30,7 +30,7 @@ export default function Home() {
       {/* <input type="search" value={buscador} onChange={(e)=> setBuscador(e.target.value)} name="" id="buscador1" className="my-auto align-middle input input-bordered w-full max-w-xs h-10 focus:invalid outline outline-1 outline-slate-950" /> */}
         <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
       </div>
-        <ShowCards buscador={buscador}/>
+        <ShowCards buscador={buscador.toLowerCase()}/>
       </div>
     </>
   )

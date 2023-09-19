@@ -5,14 +5,14 @@
      "Linkedin_mentor": "https://www.linkedin.com/in/aracelibascur/",
      "Nombre_Alumno": "Sebastián Vera Benítez",
      "Imagen_Alumno": "../mentees/Benítez-Sebastián-Vera.webp",
-     "Linkedin_Alumno": "https://www.linkedin.com/in/sebastian-vera-217a10189/",
+     "Linkedin_Alumno": "https://www.linkedin.com/in/sebastian-vera-benitez/",
      "ID": 1
     },
     {
      "Nombre_Mentor": "Alan Hryniewicz",
      "Imagen_Mentor": "../Mentores_Webp/AlanHryniewicz.webp",
      "Linkedin_mentor": "#",
-     "Nombre_Alumno": "Tadeo abbruzzese",
+     "Nombre_Alumno": "Tadeo Abbruzzese",
      "Imagen_Alumno": "../mentees/",
      "Linkedin_Alumno": "https://www.linkedin.com/in/tadeo-abbruzzese-867286229/",
      "ID": 2
@@ -21,7 +21,7 @@
      "Nombre_Mentor": "Alejandro Romero",
      "Imagen_Mentor": "../Mentores_Webp/AlejandroRomero-JuanPabloAguirre.webp",
      "Linkedin_mentor": "https://www.linkedin.com/in/alejandro-romero-927a0480/?originalSubdomain=ar",
-     "Nombre_Alumno": "Juan Pablo Leonel aguirre",
+     "Nombre_Alumno": "Juan Pablo Leonel Aguirre",
      "Imagen_Alumno": "../mentees/Aguirre-Juan-Pablo-Leonel.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/aguirrejpl/",
      "ID": 3
@@ -49,7 +49,7 @@
      "Imagen_Mentor": "../Mentores_Webp/Braian_Sueldo_Agustín_Córdoba.webp",
      "Linkedin_mentor": "https://www.linkedin.com/in/braian-sueldo-a8027798/",
      "Nombre_Alumno": "Nahuel Agustín Córdoba",
-     "Imagen_Alumno": "../mentees/",
+     "Imagen_Alumno": "../mentees/Córdoba-Nahuel-Agustín.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/nahuel-cordoba/",
      "ID": 6
     },
@@ -66,7 +66,7 @@
      "Nombre_Mentor": "Claudia Rondan ",
      "Imagen_Mentor": "../Mentores_Webp/ClaudiaGabrielaRondan_Jorgepryjmak.webp",
      "Linkedin_mentor": "#",
-     "Nombre_Alumno": "sebastian jorge pryjmak",
+     "Nombre_Alumno": "Sebastian Jorge Pryjmak",
      "Imagen_Alumno": "../mentees/Pryjmak-Jorge-Sebastián.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/jorge-sebastian-pryjmak/",
      "ID": 8
@@ -153,7 +153,7 @@
      "ID": 17
     },
     {
-     "Nombre_Mentor": "Gisella Babaro",
+     "Nombre_Mentor": "Gisela Babbaro",
      "Imagen_Mentor": "../Mentores_Webp/GISELABABBAROVerónicaVega.webp",
      "Linkedin_mentor": "https://www.linkedin.com/mwlite/in/gisela-paula-babbaro-8a9b2517a",
      "Nombre_Alumno": "Verónica Vega",
@@ -247,7 +247,7 @@
      "Imagen_Mentor": "../Mentores_Webp/LucasBonacorsi-MartinVirun.webp",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Martín Virun",
-     "Imagen_Alumno": "../mentees/Virun-Martin.png",
+     "Imagen_Alumno": "../mentees/Virun-Martin.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/martin-virun-1b5a20220",
      "ID": 28
     },
@@ -292,7 +292,7 @@
      "Imagen_Mentor": "../Mentores_Webp/",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Soledad Quispe",
-     "Imagen_Alumno": "../mentees/Quispe-Soledad.webp",
+     "Imagen_Alumno": "../mentees/Quispe-Soledad.JPG",
      "Linkedin_Alumno": "https://www.linkedin.com/in/soledadquispe/",
      "ID": 33
     },
@@ -301,7 +301,7 @@
      "Imagen_Mentor": "../Mentores_Webp/MariaSerra.webp",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Sol Johanna Torres",
-     "Imagen_Alumno": "../mentees/Torres-Sol.png",
+     "Imagen_Alumno": "../mentees/Torres-Sol.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/sol-torres/",
      "ID": 34
     },
@@ -319,7 +319,7 @@
      "Imagen_Mentor": "../Mentores_Webp/",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Brian Alcaraz",
-     "Imagen_Alumno": "../mentees/Alcaraz-Brian",
+     "Imagen_Alumno": "../mentees/Alcaraz-Brian.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/alcarazbrian/",
      "ID": 36
     },
@@ -364,14 +364,14 @@
      "Imagen_Mentor": "../Mentores_Webp/SebastianCarballeira_AgustinaPresentado.webp",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Agustina Presentado",
-     "Imagen_Alumno": "../mentees/Agustina_Presentado.jfif",
+     "Imagen_Alumno": "../mentees/Agustina_Presentado.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/agustina-presentado-740606214/",
      "ID": 41
     },
     {
      "Nombre_Mentor": "Sebastian Cortaberria",
      "Imagen_Mentor": "../Mentores_Webp/Leonardo_cauna_Sebastian_Cortaberria.webp",
-     "Linkedin_mentor": "#",
+     "Linkedin_mentor": "https://www.linkedin.com/in/sebastian-ignacio-cortaberria-6b906b4b/",
      "Nombre_Alumno": "Leonardo Cauna",
      "Imagen_Alumno": "../mentees/Cauna-Leonardo.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/leonardo-joaquin-cauna-hernandez-836325274/",
@@ -391,7 +391,7 @@
      "Imagen_Mentor": "../Mentores_Webp/Sofia_Perez_galdi_Adrian_Aguero.webp",
      "Linkedin_mentor": "#",
      "Nombre_Alumno": "Adrian Agüero",
-     "Imagen_Alumno": "../mentees/Adrian_Aguero.jfif",
+     "Imagen_Alumno": "../mentees/Adrian_Aguero.webp",
      "Linkedin_Alumno": "https://www.linkedin.com/in/adri%C3%A1n-ag%C3%BCero/",
      "ID": 44
     },
